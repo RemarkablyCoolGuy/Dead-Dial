@@ -1,4 +1,4 @@
-# Dead-Dial
+# Dead Dial
 A non-functioning SwiftUI clone of Apple's Phone app.
 
 Useful whenever you need to look like you're making a call without actually calling anybody. Very helpful in filmmaking, for example, where you might need to fake a phone call.
