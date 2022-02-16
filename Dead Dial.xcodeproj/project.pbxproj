@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B719E33527A77BBC00C4A911 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719E33427A77BBC00C4A911 /* SettingsView.swift */; };
+		B719E33727A7807F00C4A911 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719E33627A7807F00C4A911 /* Settings.swift */; };
+		B77A731727BD65A500ACAA1B /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A731627BD65A500ACAA1B /* NumberButton.swift */; };
+		B77A731927BD66D700ACAA1B /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A731827BD66D700ACAA1B /* Sizes.swift */; };
+		B77A731B27BD67B400ACAA1B /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A731A27BD67B400ACAA1B /* IconButton.swift */; };
+		B77A731D27BD6FCB00ACAA1B /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A731C27BD6FCB00ACAA1B /* Color+.swift */; };
 		B79AA74727A668BF0037604F /* Dead_DialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79AA74627A668BF0037604F /* Dead_DialApp.swift */; };
-		B79AA74927A668BF0037604F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79AA74827A668BF0037604F /* ContentView.swift */; };
+		B79AA74927A668BF0037604F /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79AA74827A668BF0037604F /* KeypadView.swift */; };
 		B79AA74B27A668C00037604F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79AA74A27A668C00037604F /* Assets.xcassets */; };
 		B79AA74E27A668C10037604F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79AA74D27A668C10037604F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B719E33427A77BBC00C4A911 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B719E33627A7807F00C4A911 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B77A731627BD65A500ACAA1B /* NumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
+		B77A731827BD66D700ACAA1B /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		B77A731A27BD67B400ACAA1B /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		B77A731C27BD6FCB00ACAA1B /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		B79AA74327A668BF0037604F /* Dead Dial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dead Dial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79AA74627A668BF0037604F /* Dead_DialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dead_DialApp.swift; sourceTree = "<group>"; };
-		B79AA74827A668BF0037604F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B79AA74827A668BF0037604F /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
 		B79AA74A27A668C00037604F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B79AA74D27A668C10037604F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				B79AA74627A668BF0037604F /* Dead_DialApp.swift */,
-				B79AA74827A668BF0037604F /* ContentView.swift */,
+				B79AA74827A668BF0037604F /* KeypadView.swift */,
+				B77A731C27BD6FCB00ACAA1B /* Color+.swift */,
+				B77A731A27BD67B400ACAA1B /* IconButton.swift */,
+				B77A731627BD65A500ACAA1B /* NumberButton.swift */,
+				B77A731827BD66D700ACAA1B /* Sizes.swift */,
+				B719E33427A77BBC00C4A911 /* SettingsView.swift */,
+				B719E33627A7807F00C4A911 /* Settings.swift */,
 				B79AA74A27A668C00037604F /* Assets.xcassets */,
 				B79AA74C27A668C10037604F /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79AA74927A668BF0037604F /* ContentView.swift in Sources */,
+				B77A731927BD66D700ACAA1B /* Sizes.swift in Sources */,
+				B77A731D27BD6FCB00ACAA1B /* Color+.swift in Sources */,
+				B719E33527A77BBC00C4A911 /* SettingsView.swift in Sources */,
+				B77A731B27BD67B400ACAA1B /* IconButton.swift in Sources */,
+				B79AA74927A668BF0037604F /* KeypadView.swift in Sources */,
+				B719E33727A7807F00C4A911 /* Settings.swift in Sources */,
+				B77A731727BD65A500ACAA1B /* NumberButton.swift in Sources */,
 				B79AA74727A668BF0037604F /* Dead_DialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dead Dial/Preview Content\"";
@@ -277,6 +302,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dead Dial/Preview Content\"";
@@ -306,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
