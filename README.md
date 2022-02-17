@@ -5,8 +5,8 @@ Useful whenever you need to look like you're making a call without actually call
 
 ## Features:
 
-* Dark/Light mode supported
-* Looks very similar to Apple's Phone app
+* Dark/Light mode supported.
+* Looks very similar to Apple's Phone app.
 * Can simulate a failed call after a specified amount of time.
 
 ## Usage
