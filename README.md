@@ -13,3 +13,7 @@ Useful whenever you need to look like you're making a call without actually call
 
 Just download the project, open in Xcode, set your development team, and run. Supports iOS 15+.
 Due to an Apple bug, you may not see the app icon until you restart your device.
+
+## Disclaimer
+
+The author of this app is not and never will be responsible or liable for any kind of accidents, problems, damages, disaster, injuries, or bad things of any kind arising from or related to the usage of this app.
