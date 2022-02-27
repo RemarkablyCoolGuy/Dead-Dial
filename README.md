@@ -1,5 +1,6 @@
 # Dead Dial
 A non-functioning SwiftUI clone of Apple's Phone app.
+If you don't want to build and run it yourself, grab it for free on the app store at http://itunes.apple.com/app/id1611250757.
 
 Useful whenever you need to look like you're making a call without actually calling anybody. Very helpful in filmmaking, for example, where you might need to fake a phone call.
 
